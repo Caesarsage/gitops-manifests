@@ -1,0 +1,15 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: gitops-apps
+  namespace: flux
+spec:
+  interval: 10m
+  path: ./manifests
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: gitops-manifests
+    namespace: flux
+  targetNamespace: gitops-app
+  timeout: 2m
