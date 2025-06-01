@@ -1,7 +1,10 @@
 # GitOps with Kubernetes Guide - Beginner-Friendly
 
-![alt text](images/architecture.png)
+![architecture](images/architecture.png)
 source: [QA platform](https://www.qa.com/)
+
+For more projects like this, visit [Learn devops by building](
+  https://github.com/Caesarsage/Learn-DevOps-by-building)
 
 ## Table of Contents
 1. [What is GitOps?](#what-is-gitops)
